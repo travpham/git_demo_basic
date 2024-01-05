@@ -1,0 +1,44 @@
+.container{
+ width: 500px;
+ border: 2px dashed brown;
+ display: flex;
+ justify-content: space-between;
+ /* Nếu các items quá 100% thì xuống hàng */
+ /* flex-wrap: wrap; */
+}
+.box{
+ width: 100px;
+ height: 100px;
+ background:  #ccc;
+ border: 1px solid red;
+}
+
+.container_extra{
+ width: 500px;
+ border: 2px dashed brown;
+ display: flex;
+ height: 200px;
+ align-items: flex-start;
+}
+.box_extra{
+ width: 100px;
+ background:  #ccc;
+ border: 1px solid blue;
+}
+
+/* bai tap 1 */
+.container_bt1{
+ width: 90%;
+ height: 150px;
+ border: 1px dashed gray;
+ border-radius: 5px;
+ margin: 0 auto;
+ display: flex; 
+ align-items: center;
+ justify-content: center;
+}
+.item_bt1{
+ background-color: coral;
+ border-radius: 5px;
+ padding: 10px;
+}
