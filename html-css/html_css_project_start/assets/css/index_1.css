@@ -1,0 +1,31 @@
+/* reset */
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+ul {
+ list-style: none;
+}
+a {
+ text-decoration: none;
+}
+/* color config */
+:root{
+ --color-white:#ffffff;
+ --color-blue-light: #f4f9fc;
+ --color-grey: #ddd;
+ --color-red: #ff324d;
+ --color-black: #212529;
+ --color-yellow: #f6bc3e;
+ --color-green: #388e3c;
+ --color-grey-lighter: #687188;
+}
+/* default */
+body {
+ font-family: 'Roboto', sans-serif;
+ font-size: 16px;
+}
+.container {
+ max-width: 1200px;
+}
